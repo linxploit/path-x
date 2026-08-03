@@ -52,9 +52,6 @@ PORTFOLIO = "https://linxploit.com/founder"
 
 requests.packages.urllib3.disable_warnings()  # noqa
 
-# --------------------------------------------------------------------------- #
-#  UI toolkit (shared visual language with the rest of the Linxploit X-Suite)
-# --------------------------------------------------------------------------- #
 
 GRADIENT = [
     "\033[38;5;196m",  # red
@@ -221,9 +218,6 @@ def progress_bar(current: int, total: int, label: str = "", width: int = 32):
             sys.stdout.write("\n")
 
 
-# --------------------------------------------------------------------------- #
-#  Wordlist
-# --------------------------------------------------------------------------- #
 
 DEFAULT_WORDLIST = [
     "admin", "administrator", "login", "logout", "dashboard", "portal",
@@ -264,10 +258,6 @@ def expand_with_extensions(words: List[str], extensions: List[str]) -> List[str]
             expanded.append(f"{word}.{ext}")
     return expanded
 
-
-# --------------------------------------------------------------------------- #
-#  Core scan
-# --------------------------------------------------------------------------- #
 
 @dataclass
 class PathHit:
@@ -394,10 +384,6 @@ def scan_target(
     return result
 
 
-# --------------------------------------------------------------------------- #
-#  Reporting
-# --------------------------------------------------------------------------- #
-
 def print_result_header(base_url: str):
     print()
     section_header(f"TARGET: {base_url}", Fore.CYAN, BOX["compass"])
@@ -484,10 +470,6 @@ def save_csv(results: List[ScanResult], path: str):
                 row["base_url"] = r.base_url
                 writer.writerow({k: row.get(k) for k in fields})
 
-
-# --------------------------------------------------------------------------- #
-#  CLI
-# --------------------------------------------------------------------------- #
 
 def parse_header_list(items: Optional[List[str]]) -> dict:
     headers = {}
