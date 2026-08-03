@@ -1,0 +1,11 @@
+# Example custom wordlist for -w/--wordlist.
+# One path per line. Lines starting with # are ignored.
+# Combine with --ext to append extensions automatically.
+admin
+login
+dashboard
+api
+internal
+staging
+old-site
+docs

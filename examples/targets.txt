@@ -1,0 +1,4 @@
+# One target base URL per line. Lines starting with # are ignored.
+# Only list targets you own or are explicitly authorized to assess.
+https://example.com
+https://staging.example.com
