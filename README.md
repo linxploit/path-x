@@ -88,7 +88,7 @@ On a site that returns `200 OK` for everything (SPA catch-all / soft-404 behavio
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/linxploit/pathx.git
+git clone https://github.com/linxploit/path-x.git
 cd pathx
 pip install -r requirements.txt
 ```
