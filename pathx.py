@@ -7,7 +7,7 @@
 ██╔═══╝ ██╔══██║   ██║   ██╔══██║ ██╔██╗
 ██║     ██║  ██║   ██║   ██║  ██║██╔╝ ██╗
 ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
-qdxewwwewqf
+qdxewwwewqfwqedq
 PathX — Directory & Endpoint Discovery Scanner
 Made by Mindless — Founder & CEO of Linxploit
 https://linxploit.com | https://linxploit.com/founder
